@@ -8,6 +8,7 @@ public class Collection : MonoBehaviour
 
 
     private Rigidbody rigidBody;
+    public int scoreMultiplier;
 
     private void Start()
     {
@@ -27,7 +28,7 @@ public class Collection : MonoBehaviour
         if (other.gameObject.tag == "ScoreDouble")
         {
             other.gameObject.SetActive(false);
-            Globals.score = Globals.score * 2;
+            Globals.score = Globals.score * scoreMultiplier;
 
         }
 
