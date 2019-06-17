@@ -15,7 +15,7 @@ public class Destroy : MonoBehaviour
     }
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name == "Cube" && Globals.invincible == false)
+        if (col.gameObject.name == "Player" && Globals.invincible == false)
         {
             Destroy(col.gameObject);
             Globals.playerAlive = false;
