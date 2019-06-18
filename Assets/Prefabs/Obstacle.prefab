@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 6440591913151663398}
   - component: {fileID: 1226186546783106899}
   - component: {fileID: 4092433493297485078}
-  - component: {fileID: 7606036042557347638}
   - component: {fileID: -7744236963913781601}
   - component: {fileID: 5395089214680542890}
   - component: {fileID: 7834268828711584136}
   - component: {fileID: 7717117216813598581}
+  - component: {fileID: 5084013906216929526}
+  - component: {fileID: 5939133971411017740}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Asteroid
@@ -30,13 +31,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7861948018653550848}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.050867, y: 96.46289, z: -42.14999}
+  m_LocalRotation: {x: -0.032417584, y: -0.8834432, z: -0.032469284, w: -0.46628648}
+  m_LocalPosition: {x: -10.273, y: 96.46289, z: -42.14999}
   m_LocalScale: {x: 0.36769956, y: 0.2871821, z: 0.27786613}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.5550001, y: 484.281, z: 5.025}
 --- !u!33 &1226186546783106899
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -44,7 +45,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7861948018653550848}
-  m_Mesh: {fileID: 4300008, guid: 1da96eef2abec4342bba496bf9aa71e8, type: 3}
+  m_Mesh: {fileID: 4300004, guid: 1da96eef2abec4342bba496bf9aa71e8, type: 3}
 --- !u!23 &4092433493297485078
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -62,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1f4efa1e58cc15c40b5495623687af61, type: 2}
+  - {fileID: 2100000, guid: 8b7cbe5300d2f61498ebc398b9f3d1b2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,19 +83,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &7606036042557347638
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7861948018653550848}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.669529
-  m_Center: {x: 0, y: 0.107861966, z: 0}
 --- !u!114 &-7744236963913781601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,3 +135,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427be1c1bd45ec5458ced22a0afc20a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &5084013906216929526
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7861948018653550848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.9368274
+  m_Height: 5.1259975
+  m_Direction: 2
+  m_Center: {x: 0.12314302, y: -0.15926847, z: -0.88432765}
+--- !u!136 &5939133971411017740
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7861948018653550848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.2770512
+  m_Height: 3.3197253
+  m_Direction: 1
+  m_Center: {x: 0.5872238, y: 0.7815198, z: 1.7155253}
