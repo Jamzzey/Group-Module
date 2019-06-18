@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InvincibleText : MonoBehaviour
 {
-    public Text invincibleText;
+    public TextMeshProUGUI invincibleText;
   
     // Start is called before the first frame update
     void Start()
     {
-        invincibleText = GetComponent<Text>();
+        invincibleText = GetComponent<TextMeshProUGUI>();
 
     }
 
