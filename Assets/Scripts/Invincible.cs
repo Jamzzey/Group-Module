@@ -10,7 +10,7 @@ public class Invincible : MonoBehaviour
 
         void OnTriggerEnter(Collider other)
         {
-            if (other.name == "Cube")
+            if (other.name == "Player")
             {
                 Globals.invincible = true;
                 Invoke("endPowerup", 7);
