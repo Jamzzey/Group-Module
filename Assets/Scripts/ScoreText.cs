@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ScoreText : MonoBehaviour
 {
-    public Text scoreText;
+    public TextMeshProUGUI scoreText;
     private string playerScore;
     // Start is called before the first frame update
     void Start()
     {
-        scoreText = GetComponent<Text>();
+        scoreText = GetComponent<TextMeshProUGUI>();
       
     }
 
