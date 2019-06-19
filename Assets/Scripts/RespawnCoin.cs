@@ -21,6 +21,7 @@ public class RespawnCoin : MonoBehaviour
         if (other.gameObject.tag == "End")
         {
             gameObject.transform.position = originalPos;
+            gameObject.SetActive(true); 
         }
 
 
