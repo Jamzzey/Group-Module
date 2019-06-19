@@ -20,6 +20,6 @@ public class ScoreText : MonoBehaviour
     {
         playerScore = Globals.score.ToString();
         scoreText.text = "Score: " + playerScore;
-        if (Globals.playerAlive == true) { Globals.score++; }
+        if (Globals.playerAlive == true) { Globals.score += Globals.scoreMultiplier; }
     }
 }
