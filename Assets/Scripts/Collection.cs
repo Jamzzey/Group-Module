@@ -28,12 +28,17 @@ public class Collection : MonoBehaviour
         if (other.gameObject.tag == "ScoreDouble")
         {
             other.gameObject.SetActive(false);
-            Globals.score = Globals.score * scoreMultiplier;
+            Globals.scoreMultiplier *= 5;
+            Invoke("endScoreMultiplier", 5);
 
         }
 
-
-
+       
 
     }
+    void endScoreMultiplier()
+    {
+        Globals.scoreMultiplier /= 5;
+    }
+
 }

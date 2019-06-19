@@ -18,7 +18,7 @@ public class RespawnCoin : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "End")
+        if (other.gameObject.tag == "PUR")
         {
             gameObject.transform.position = originalPos;
             gameObject.SetActive(true); 

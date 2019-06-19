@@ -22,7 +22,7 @@ Vector3 originalPos;
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "End")
+        if (other.gameObject.tag == "PUR")
         {
             gameObject.transform.position = originalPos;
             //gameObject.Renderer.Enabled(true);

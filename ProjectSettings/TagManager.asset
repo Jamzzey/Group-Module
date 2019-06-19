@@ -10,6 +10,11 @@ TagManager:
   - 'collectible '
   - Coin
   - ScoreDouble
+<<<<<<< Updated upstream
+=======
+  - Background
+  - PUR
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
