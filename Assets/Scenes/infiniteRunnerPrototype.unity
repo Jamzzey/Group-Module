@@ -8171,11 +8171,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.3676996
       objectReference: {fileID: 0}
-    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.27
-      objectReference: {fileID: 0}
     - target: {fileID: 1226186546783106899, guid: 26d76aed582615f4f87e61c42297dec6,
         type: 3}
       propertyPath: m_Mesh
@@ -8187,6 +8182,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f406754bd56488343a053af9d875ea62, type: 2}
+    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.27
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d76aed582615f4f87e61c42297dec6, type: 3}
 --- !u!4 &656353218 stripped
@@ -8361,11 +8361,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.32725263
       objectReference: {fileID: 0}
-    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.26
-      objectReference: {fileID: 0}
     - target: {fileID: 1226186546783106899, guid: 26d76aed582615f4f87e61c42297dec6,
         type: 3}
       propertyPath: m_Mesh
@@ -8377,6 +8372,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f406754bd56488343a053af9d875ea62, type: 2}
+    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.26
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d76aed582615f4f87e61c42297dec6, type: 3}
 --- !u!1001 &680831753
@@ -10977,11 +10977,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.3676996
       objectReference: {fileID: 0}
-    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.19
-      objectReference: {fileID: 0}
     - target: {fileID: 1226186546783106899, guid: 26d76aed582615f4f87e61c42297dec6,
         type: 3}
       propertyPath: m_Mesh
@@ -10993,6 +10988,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8b7cbe5300d2f61498ebc398b9f3d1b2, type: 2}
+    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.19
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d76aed582615f4f87e61c42297dec6, type: 3}
 --- !u!1 &880342631
@@ -12676,11 +12676,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.3676996
       objectReference: {fileID: 0}
-    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.12
-      objectReference: {fileID: 0}
     - target: {fileID: 1226186546783106899, guid: 26d76aed582615f4f87e61c42297dec6,
         type: 3}
       propertyPath: m_Mesh
@@ -12692,6 +12687,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: acfe16e7fa4b4034bb153155040f329d, type: 2}
+    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d76aed582615f4f87e61c42297dec6, type: 3}
 --- !u!1001 &1024479291
@@ -14601,19 +14601,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &1174427298
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174427296}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.669529
-  m_Center: {x: 0, y: 0.107861966, z: 0}
 --- !u!114 &1174427299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23207,11 +23194,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.3676996
       objectReference: {fileID: 0}
-    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
     - target: {fileID: 1226186546783106899, guid: 26d76aed582615f4f87e61c42297dec6,
         type: 3}
       propertyPath: m_Mesh
@@ -23223,6 +23205,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f406754bd56488343a053af9d875ea62, type: 2}
+    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d76aed582615f4f87e61c42297dec6, type: 3}
 --- !u!1 &1583659740
@@ -25739,8 +25726,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.669529
-  m_Center: {x: 0, y: 0.107861966, z: 0}
+  m_Radius: 1.764146
+  m_Center: {x: -0.08248497, y: -0.09758553, z: -0.02834494}
 --- !u!23 &1818845651
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26014,6 +26001,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862758309}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1883825405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7660808767307734908, guid: 8abc34be18c0c2d4c8c248d83db35c99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1644688553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1883825407
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883825405}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.4561096
+  m_Center: {x: -0.40912554, y: -0.039583795, z: -0.23871556}
 --- !u!4 &1891049695 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 03f9654c1cb7b2b40b2ed1e744f16734,
@@ -26277,11 +26283,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.4170081
       objectReference: {fileID: 0}
-    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.3
-      objectReference: {fileID: 0}
     - target: {fileID: 1226186546783106899, guid: 26d76aed582615f4f87e61c42297dec6,
         type: 3}
       propertyPath: m_Mesh
@@ -26293,6 +26294,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: acfe16e7fa4b4034bb153155040f329d, type: 2}
+    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d76aed582615f4f87e61c42297dec6, type: 3}
 --- !u!1001 &1926162270
@@ -26546,6 +26552,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932624162}
   m_Mesh: {fileID: 3825508239798066429, guid: 03f9654c1cb7b2b40b2ed1e744f16734, type: 3}
+--- !u!1 &1937271768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2689390112330712026, guid: 8abc34be18c0c2d4c8c248d83db35c99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1644688553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1937271769
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937271768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.99970645
+  m_Height: 2.18621
+  m_Direction: 1
+  m_Center: {x: -0.7755025, y: -0.43734935, z: -2.0680199}
 --- !u!1 &1937569794
 GameObject:
   m_ObjectHideFlags: 0
@@ -27003,11 +27029,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.3195346
       objectReference: {fileID: 0}
-    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 1226186546783106899, guid: 26d76aed582615f4f87e61c42297dec6,
         type: 3}
       propertyPath: m_Mesh
@@ -27019,6 +27040,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8b7cbe5300d2f61498ebc398b9f3d1b2, type: 2}
+    - target: {fileID: 5395089214680542890, guid: 26d76aed582615f4f87e61c42297dec6,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d76aed582615f4f87e61c42297dec6, type: 3}
 --- !u!1 &1966849419 stripped
@@ -27074,8 +27100,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.669529
-  m_Center: {x: 0, y: 0.107861966, z: 0}
+  m_Radius: 2.6458502
+  m_Center: {x: -0.0000000046236517, y: -0.25011903, z: -0.07904767}
 --- !u!23 &1966849424
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27264,6 +27290,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1993398043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2689390112330712026, guid: 8abc34be18c0c2d4c8c248d83db35c99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1800582227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1993398045
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993398043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.019597
+  m_Center: {x: -0.6793313, y: -0.58501506, z: -2.0305517}
 --- !u!4 &2001051287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: a75028a3be6c617409b4150a69c2c3b1,
