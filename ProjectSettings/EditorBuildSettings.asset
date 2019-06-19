@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Aziz's Room DO NOT ENTER.unity
+    guid: 2f8112105ce87c14f8354021c6cdbbcd
+  - enabled: 1
+    path: Assets/Scenes/infiniteRunnerPrototype.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

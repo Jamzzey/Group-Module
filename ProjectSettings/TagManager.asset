@@ -10,6 +10,7 @@ TagManager:
   - 'collectible '
   - Coin
   - ScoreDouble
+  - Background
   layers:
   - Default
   - TransparentFX
