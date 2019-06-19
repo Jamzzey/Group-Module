@@ -6,5 +6,6 @@ public class Globals : MonoBehaviour
 
 { public static bool invincible = false;
     public static int score = 0;
-    public static bool playerAlive = true; 
+    public static bool playerAlive = true;
+    public static int scoreMultiplier = 2;
 }
