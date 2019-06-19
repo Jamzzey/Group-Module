@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UpTex:
-        m_Texture: {fileID: 2800000, guid: e5e71484b4d1d714a92e8029fbb8c039, type: 3}
+        m_Texture: {fileID: 2800000, guid: 83ef042e6b1367d439983e2d547b480b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
