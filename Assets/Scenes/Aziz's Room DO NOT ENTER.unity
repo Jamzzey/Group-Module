@@ -145,8 +145,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196679557}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.020355, y: 2.7880201, z: 2.029183}
+  m_LocalPosition: {x: 0, y: 0, z: 70.8}
+  m_LocalScale: {x: 17.587254, y: 16.234388, z: 11.815749}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -297,7 +297,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -365,7 +365,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15
+      scalar: 25
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -472,7 +472,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.3018868, g: 0.12388752, b: 0.2716605, a: 1}
+      maxColor: {r: 0, g: 0, b: 0, a: 0.23921569}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -910,7 +910,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 25
+    angle: 8
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -5005,13 +5005,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336749379}
-  m_LocalRotation: {x: -0.04200822, y: -0.20792611, z: 0.12580968, w: -0.96910995}
-  m_LocalPosition: {x: -5, y: 152, z: -102}
-  m_LocalScale: {x: 167.69194, y: 289.68243, z: 33.017803}
+  m_LocalRotation: {x: -0.3008394, y: 0.16184308, z: 0.6549291, w: -0.67407006}
+  m_LocalPosition: {x: 47.6, y: 17, z: -53}
+  m_LocalScale: {x: 18.542755, y: 13.314723, z: 7.201049}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 7.6860003, y: -336.672, z: -13.205001}
+  m_LocalEulerAnglesHint: {x: 11.162001, y: -398.612, z: -92.271}
 --- !u!1 &431130421
 GameObject:
   m_ObjectHideFlags: 0
@@ -6328,7 +6328,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -6396,7 +6396,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15
+      scalar: 25
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -6503,7 +6503,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.19045925, g: 0.3773585, b: 0.352199, a: 1}
+      maxColor: {r: 0, g: 0, b: 0, a: 0.25882354}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -6941,7 +6941,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 25
+    angle: 8
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -7027,7 +7027,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.2
       mode: 0
       spread: 0
       speed:
@@ -11036,10 +11036,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824357033}
-  m_LocalRotation: {x: 0.15630363, y: -0.12977658, z: -0.024686527, w: 0.9788349}
-  m_LocalPosition: {x: -130, y: 5, z: -16}
-  m_LocalScale: {x: 173.10315, y: 299.03012, z: 34.083244}
+  m_LocalRotation: {x: 0.33425874, y: 0.15710285, z: 0.6285553, w: 0.68447655}
+  m_LocalPosition: {x: -30.5, y: 13.8, z: -41.6}
+  m_LocalScale: {x: 27.459694, y: 27.341703, z: 7.5454855}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 17.433, y: -15.925001, z: -5.346}
+  m_LocalEulerAnglesHint: {x: 15.075001, y: 41.141003, z: 90.80801}

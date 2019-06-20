@@ -9,6 +9,7 @@ public class Collection : MonoBehaviour
 
     private Rigidbody rigidBody;
     public int scoreMultiplier;
+    public int scoreMultiplierAmount = 5;
 
     private void Start()
     {
@@ -16,19 +17,24 @@ public class Collection : MonoBehaviour
     }
 
 
+    private void Update()
+    {
+        if (Globals.score > 20000) { Globals.coinScore = 5000; scoreMultiplier = 100; }  
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Coin")
         {
             other.gameObject.SetActive(false);
-            Globals.score += 1000;
+            Globals.score += Globals.coinScore; 
 
         }
 
         if (other.gameObject.tag == "ScoreDouble")
         {
             other.gameObject.SetActive(false);
-            Globals.scoreMultiplier *= 5;
+            Globals.scoreMultiplier = Globals.scoreMultiplier * scoreMultiplierAmount;
             Invoke("endScoreMultiplier", 5);
 
         }
@@ -38,7 +44,9 @@ public class Collection : MonoBehaviour
     }
     void endScoreMultiplier()
     {
-        Globals.scoreMultiplier /= 5;
+        Globals.scoreMultiplier /= scoreMultiplierAmount;
     }
+
+
 
 }
