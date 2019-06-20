@@ -26,6 +26,7 @@ public class Collection : MonoBehaviour
     {
         if (other.gameObject.tag == "Coin")
         {
+           
             other.gameObject.SetActive(false);
             Globals.score += Globals.coinScore; 
 
@@ -33,9 +34,10 @@ public class Collection : MonoBehaviour
 
         if (other.gameObject.tag == "ScoreDouble")
         {
-            other.gameObject.SetActive(false);
+           
             Globals.scoreMultiplier = Globals.scoreMultiplier * scoreMultiplierAmount;
             Invoke("endScoreMultiplier", 5);
+            other.gameObject.SetActive(false);
 
         }
 
