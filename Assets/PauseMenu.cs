@@ -12,6 +12,9 @@ public class PauseMenu : MonoBehaviour
     public void Home()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Globals.score = 0;
+        Globals.coinScore = 1000;
+        Globals.scoreMultiplierAmount = 5;
     }
 
     void Update()

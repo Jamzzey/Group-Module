@@ -11,8 +11,7 @@ public class Collection : MonoBehaviour
 
     private Rigidbody rigidBody;
    
-    //This is the amount that the score multiplier will be multiplied by when the score powerup is collected 
-    public int scoreMultiplierAmount = 5;
+    
 
     private void Start()
     {
@@ -23,7 +22,7 @@ public class Collection : MonoBehaviour
     private void Update()
     {
         //Makes the coin value increase after the players score reaches a certain amount, and how much the score is multiplied by with the powerups
-        if (Globals.score > 20000) { Globals.coinScore = 5000; scoreMultiplierAmount = 20; }  
+        if (Globals.score > 20000) { Globals.coinScore = 5000; Globals.scoreMultiplierAmount = 20; }  
     }
 
     void OnTriggerEnter(Collider other)
@@ -41,7 +40,7 @@ public class Collection : MonoBehaviour
         if (other.gameObject.tag == "ScoreDouble")
         {
            
-            Globals.scoreMultiplier = Globals.scoreMultiplier * scoreMultiplierAmount;
+            Globals.scoreMultiplier = Globals.scoreMultiplier * Globals.scoreMultiplierAmount;
             Invoke("endScoreMultiplier", 5);
             other.gameObject.SetActive(false);
 
@@ -53,7 +52,7 @@ public class Collection : MonoBehaviour
     void endScoreMultiplier()
     {
         //Divides the score mulitplier by the amount it was multiplied by in powerup to return it to its original amount
-        Globals.scoreMultiplier /= scoreMultiplierAmount;
+        Globals.scoreMultiplier /= Globals.scoreMultiplierAmount;
     }
 
 
