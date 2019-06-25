@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//Made by Merlin Aldrick
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +10,8 @@ public class Collection : MonoBehaviour
 
 
     private Rigidbody rigidBody;
-    public int scoreMultiplier;
+   
+    //This is the amount that the score multiplier will be multiplied by when the score powerup is collected 
     public int scoreMultiplierAmount = 5;
 
     private void Start()
@@ -19,11 +22,13 @@ public class Collection : MonoBehaviour
 
     private void Update()
     {
-        if (Globals.score > 20000) { Globals.coinScore = 5000; scoreMultiplier = 100; }  
+        //Makes the coin value increase after the players score reaches a certain amount, and how much the score is multiplied by with the powerups
+        if (Globals.score > 20000) { Globals.coinScore = 5000; scoreMultiplierAmount = 20; }  
     }
 
     void OnTriggerEnter(Collider other)
     {
+        //If the player collides with the coin then the coin object will disappear, and the score will be increased by the coins value 
         if (other.gameObject.tag == "Coin")
         {
            
@@ -31,7 +36,8 @@ public class Collection : MonoBehaviour
             Globals.score += Globals.coinScore; 
 
         }
-
+        //If the player picks up a score powerup, the amount the score increases every frame will be multiplied by the value of the scoreMultiplierAmount
+        //and the powerup will disappear, this will also invoke the end of the powerup after the set amount 
         if (other.gameObject.tag == "ScoreDouble")
         {
            
@@ -46,6 +52,7 @@ public class Collection : MonoBehaviour
     }
     void endScoreMultiplier()
     {
+        //Divides the score mulitplier by the amount it was multiplied by in powerup to return it to its original amount
         Globals.scoreMultiplier /= scoreMultiplierAmount;
     }
 
