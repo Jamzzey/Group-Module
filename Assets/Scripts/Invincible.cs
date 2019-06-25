@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class Invincible : MonoBehaviour
 
-{ 
+{
 
-
-
-        void OnTriggerEnter(Collider other)
+    public MeshRenderer cubeRenderer;
+    private void Start()
+    {
+        cubeRenderer = GetComponent<MeshRenderer>();
+    }
+    void OnTriggerEnter(Collider other)
         {
             if (other.name == "Player")
             {
                 Globals.invincible = true;
                 Invoke("endPowerup", 7);
-                gameObject.SetActive(false);
+            gameObject.SetActive(false);
 
             }
 
