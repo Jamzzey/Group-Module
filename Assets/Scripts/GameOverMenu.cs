@@ -1,10 +1,13 @@
-﻿using System.Collections;
+﻿//Made by Aziz Ali
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameOverMenu : MonoBehaviour
 {
+    //Globals (Merlin)
     public void StartAgain(string scenename)
     {
         Globals.score = 0;

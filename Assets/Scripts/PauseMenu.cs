@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//Made by Aziz Ali
+//This helped me make the pause menu
+//https://www.youtube.com/watch?v=JivuXdrIHK0
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,6 +13,7 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject PauseM;
 
+    //Globals (Merlin)
     public void Home()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
