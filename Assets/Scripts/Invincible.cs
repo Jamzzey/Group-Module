@@ -14,7 +14,7 @@ public class Invincible : MonoBehaviour
             if (other.name == "Player")
             {
                 Globals.invincible = true;
-                Invoke("endPowerup", 7);
+                Invoke("endPowerup", Globals.invincibleLength);
             gameObject.SetActive(false);
 
             }
