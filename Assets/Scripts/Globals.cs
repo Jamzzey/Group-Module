@@ -16,4 +16,5 @@ public class Globals : MonoBehaviour
     public static int scoreMultiplier = 2;
     //This is how much the players score increases when picking up a coin
     public static int coinScore = 1000;
+    
 }

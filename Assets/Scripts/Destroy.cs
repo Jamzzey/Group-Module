@@ -3,7 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class Destroy : MonoBehaviour
 {
@@ -17,11 +17,12 @@ public class Destroy : MonoBehaviour
     }
     void OnCollisionEnter(Collision col)
     {
-        //If the player collides with the asteroid and the invincibility powerup isn't active, then the players object will be destroyed
+        //If the player collides with the asteroid and the invincibility powerup isn't active, then the players object will be destroyed (and death scene will be loaded - Aziz)
         if (col.gameObject.name == "Player" && Globals.invincible == false)
         {
             Destroy(col.gameObject);
             Globals.playerAlive = false;
+            SceneManager.LoadScene("Death Screen");
         }
         
     }
