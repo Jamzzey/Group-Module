@@ -17,7 +17,7 @@ public class InvincibleText : MonoBehaviour
     
     void Update()
     {
-        //Makes sure the font isn't there if the player isn't invincible, and then comes up saying "Invincible!" once the powerup is collected
+        //Invincible Icon appears when the player picks up the powerup
         if (Globals.invincible == false) { invincibleIcon.SetActive(false); }
         if (Globals.invincible == true) { invincibleIcon.SetActive(true); } 
       
