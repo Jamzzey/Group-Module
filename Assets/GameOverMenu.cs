@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverMenu : MonoBehaviour
 {
     public void StartAgain(string scenename)
     {
-        Application.LoadLevel(scenename);    
+        SceneManager.LoadScene("infiniteRunnerPrototype");    
     }
 
     public void Home(string scenename)
     {
-        Application.LoadLevel(scenename);
+        SceneManager.LoadScene("Main Menu");
     }
 }
