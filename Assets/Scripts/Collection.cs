@@ -39,7 +39,7 @@ public class Collection : MonoBehaviour
         //and the powerup will disappear, this will also invoke the end of the powerup after the set amount 
         if (other.gameObject.tag == "ScoreDouble")
         {
-           
+            Globals.scorePowerup = true; 
             Globals.scoreMultiplier = Globals.scoreMultiplier * Globals.scoreMultiplierAmount;
             Invoke("endScoreMultiplier", 5);
             other.gameObject.SetActive(false);
@@ -53,6 +53,7 @@ public class Collection : MonoBehaviour
     {
         //Divides the score mulitplier by the amount it was multiplied by in powerup to return it to its original amount
         Globals.scoreMultiplier /= Globals.scoreMultiplierAmount;
+        Globals.scorePowerup = false;
     }
 
 

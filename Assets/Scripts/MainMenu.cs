@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
     {
         //When the play button is pressed the game will change to the game scene 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Globals.playerAlive = true;
     }
 
     public void Exit()
