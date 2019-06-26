@@ -11,7 +11,7 @@ public class GameOverMenu : MonoBehaviour
         Globals.coinScore = 1000;
         Globals.scoreMultiplierAmount = 5;
         Globals.playerAlive = true;
-        SceneManager.LoadScene("infiniteRunnerPrototype");    
+        SceneManager.LoadScene("Game Screen");    
     }
 
     public void Home(string scenename)
