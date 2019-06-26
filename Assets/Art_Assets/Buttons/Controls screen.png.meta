@@ -13,7 +13,7 @@ TextureImporter:
     second: Back 01
   - first:
       213: 1541875060073289029
-    second: Controls screen title
+    second: To
   - first:
       213: 1206246422217285970
     second: WASD
@@ -23,6 +23,15 @@ TextureImporter:
   - first:
       213: -8137581963233685907
     second: Back
+  - first:
+      213: -9038314018518584243
+    second: Controls
+  - first:
+      213: -3054859487969966565
+    second: Controls screen_0
+  - first:
+      213: -7442167221053715958
+    second: ToMove
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,27 +125,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Controls screen title
-      rect:
-        serializedVersion: 2
-        x: 2474
-        y: 5700
-        width: 5066
-        height: 1720
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e5aed38666714742a413bbcb8029f9e
-      internalID: 1541875060073289029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: WASD
       rect:
         serializedVersion: 2
@@ -187,7 +175,7 @@ TextureImporter:
         width: 2021
         height: 683
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,6 +183,69 @@ TextureImporter:
       bones: []
       spriteID: 280cd5568d35025489e5c38c25e56dfb
       internalID: -8137581963233685907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 6519
+        width: 4874
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf319b1a41921448bb1d0716d98b53c
+      internalID: -9038314018518584243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls screen_0
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 5768
+        width: 847
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1f9f6a71f561d47a8f118b0566f088
+      internalID: -3054859487969966565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToMove
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 5700
+        width: 3741
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87f99788e851ea48bed62db651e3c7e
+      internalID: -7442167221053715958
       vertices: []
       indices: 
       edges: []
