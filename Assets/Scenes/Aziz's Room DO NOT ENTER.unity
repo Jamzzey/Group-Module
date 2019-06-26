@@ -5367,7 +5367,7 @@ GameObject:
   - component: {fileID: 750034478}
   - component: {fileID: 750034477}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5380,16 +5380,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750034475}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.676824, y: 3.258984, z: 3.258984}
+  m_LocalScale: {x: 5.6768236, y: 3.2589839, z: 3.2589839}
   m_Children: []
-  m_Father: {fileID: 792546853}
-  m_RootOrder: 2
+  m_Father: {fileID: 1238320721}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 54}
+  m_AnchoredPosition: {x: 261.64, y: 201.93999}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750034477
@@ -5482,7 +5482,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -5522,7 +5522,6 @@ RectTransform:
   m_Children:
   - {fileID: 1238320721}
   - {fileID: 1585564117}
-  - {fileID: 750034476}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6102,6 +6101,7 @@ RectTransform:
   - {fileID: 1480566015}
   - {fileID: 1311669362}
   - {fileID: 823058291}
+  - {fileID: 750034476}
   m_Father: {fileID: 792546853}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6507,6 +6507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 083448da8ba3b3d438e2b62488e9a7bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 0}
 --- !u!1 &1585564116
 GameObject:
   m_ObjectHideFlags: 0
