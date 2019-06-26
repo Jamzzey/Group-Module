@@ -16,4 +16,6 @@ public class Globals : MonoBehaviour
     public static int scoreMultiplier = 2;
     //This is how much the players score increases when picking up a coin
     public static int coinScore = 1000;
+    //This is the amount that the score multiplier will be multiplied by when the score powerup is collected 
+    public static int scoreMultiplierAmount = 5;
 }
